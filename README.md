@@ -105,7 +105,15 @@ System.out.print(3);
     scanner.close();
     ```
     
-
+- scanner 클래스의 주요 메소드 
+  - String next() : 다음 토큰을 문자열로 리턴
+  - byte nextByte() : 다음 토큰을 byte 타입으로 리턴
+  - short nextShort() :  다음 토큰을 short 타입으로 리턴
+  - int nextInt() : 다음 토큰을 int 타입으로 리턴
+  - long nextlong() : 다음 토큰을 long 타입으로 리턴
+  - flat nextFloat() : 다음 토큰을 float 타입으로 리턴
+  - double nextDouble() : 다음 토큰을 double 타입으로 리턴
+  - boolean nextBoolean() :  다음 토큰을 boolean 타입으로 리턴
 
   
 
