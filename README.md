@@ -88,12 +88,14 @@ System.out.print(3);
       Scanner scanner = new Scanner(System.in); // 객체를 생성할 때는 new 태그를 사용한다.
       ```
       
-  - inport 문 사용
+  - import 문 사용
     - Scanner를 사용하기 위해서는 프로그램의 맨 앞줄에 다음 import 문이 필요하다.
 
       ```java
       import java.util.Scanner;
       ```
+    
+    - Scanner클래스는 자바에서 제공되는 java.util패키지에 있으므로, 이 import문을 통해 Scanner의 경로명이 java.Util.Scanner 임을 나타낸다.
       
   - Scanner 클래스로 키 입력받기
     - Scanner 클래스는 사용자가 입력하는 키 값을 공백 문자(' ', '\t', '\n')를 기준으로 분리하여 **토큰 단위**로 읽는다.
