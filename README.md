@@ -138,15 +138,15 @@ System.out.print(3);
     ```java
     for (i = 0, i < 10; i++, System.out.println(i)) {
         ...
-     }
+    }
     ```
    
- - for문 내에 변수 선언
+  - for문 내에 변수 선언
   
     ```java
-   for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++) {
         ...
-   }
+    }
     ```
 
  
