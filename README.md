@@ -133,21 +133,21 @@ System.out.print(3);
     }
     ```
     
-   - 여러 문장 나열
+  - 여러 문장 나열
    
-   ```java
-   for (i = 0, i < 10; i++, System.out.println(i)) {
-      ...
-   }
-   ```
+    ```java
+    for (i = 0, i < 10; i++, System.out.println(i)) {
+        ...
+     }
+    ```
    
-  - for문 내에 변수 선언
+ - for문 내에 변수 선언
   
-  ```java
-  for (int i = 0; i < 10; i++) {
-      ...
-  }
-  ```
+    ```java
+   for (int i = 0; i < 10; i++) {
+        ...
+   }
+    ```
 
  
  
