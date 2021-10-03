@@ -117,7 +117,37 @@ System.out.print(3);
   - double nextDouble() : 다음 토큰을 double 타입으로 리턴
   - boolean nextBoolean() :  다음 토큰을 boolean 타입으로 리턴
 
+**반복문 for**
+- for문의 특이한 형태 
+  - 무한반복
+    
+    ```java
+    for (초기작업; true; 반복 후 작업) {   // 반복 조건이 true이면 무한반복
+      ...
+    }
+    ```
+    
+    ```java
+    for (초기작업; ;반복 후 작업) {   // 반복조건이 비어있으면 true로 간주, 무한반복
+      ...
+    }
+    ```
+    
+   - 여러 문장 나열
+   
+   ```java
+   for (i = 0, i < 10; i++, System.out.println(i)) {
+      ...
+   }
+   ```
+   
+  - for문 내에 변수 선언
   
+  ```java
+  for (int i = 0; i < 10; i++) {
+      ...
+  }
+  ```
 
  
  
